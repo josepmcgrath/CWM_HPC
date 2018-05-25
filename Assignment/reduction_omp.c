@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-//include openMP library
+//include OpenMP library
 #include "omp.h"
 
 #define NUM_ELS 100000

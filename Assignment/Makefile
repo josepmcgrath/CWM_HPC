@@ -22,7 +22,7 @@ EXCFILE3 = reduction_omp
 #make functions
 all: clean reduction reduction_atomic
 
-reduction_omp: reduction.c Makefile
+reduction_omp: reduction_omp.c Makefile
 	$(CC) $(CFLAGS) -o $(EXCFILE3) reduction.c $(LIBS)
 
 reduction: reduction.cu Makefile
